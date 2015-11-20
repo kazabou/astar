@@ -38,15 +38,7 @@ class CreateMap:
         d = abs(start[0] - end[0]) + abs(start[1] - end[1])
         return d
 
-    #
-    # def getDistanceMinNeighbor(self, positions, end):
-    #     closest = positions[0]
-    #     dist = self.getDistance(closest, end)
-    #     for pos in positions:
-    #         if self.getDistance(pos,end) < dist:
-    #             closest = pos
-    #
-    #     return pos
+
 
 
 map = CreateMap(10,10)
